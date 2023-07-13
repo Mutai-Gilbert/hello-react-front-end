@@ -1,8 +1,10 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import store from './src/redux/store';
+import configureAppStore from './redux/store';
 import { Provider } from 'react-redux';
-import App from './src/App';
+import App from './App';
+
+const store = configureAppStore();
 
 const root = createRoot(document.getElementById('root'));
 root.render(

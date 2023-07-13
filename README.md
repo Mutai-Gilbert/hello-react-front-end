@@ -136,7 +136,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Shubham Bhoyar**
+👤 **Gilbert Mutai**
 
 - GitHub: [@Mutai-Gilbert](https://github.com/Mutai-Gilbert)
 
