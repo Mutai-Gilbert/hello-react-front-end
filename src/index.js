@@ -1,14 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import configureAppStore from './redux/store';
 import { Provider } from 'react-redux';
+import configureAppStore from './redux/store';
 import App from './App';
 
 const store = configureAppStore();
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-    <Provider store={store}>
-        <App />
-    </Provider>
+  <Provider store={store}>
+    <App />
+  </Provider>,
 );
